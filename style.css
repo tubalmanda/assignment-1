@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: o;
     /* font-family: 'Inter', sans-serif; */
     font-family: 'Work Sans', sans-serif;
@@ -79,11 +79,17 @@ header {}
     line-height: 26px;
 }
 
-/* Description common class */
+/* Common class */
 .com-title {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 24px;
+}
+
+.com-title-white {
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 .description {
@@ -92,9 +98,17 @@ header {}
     color: #444343;
 }
 
+.description-white {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+}
+
 /* My Plans Section */
 .my-plan-container {
     text-align: center;
+    width: 1140px;
 }
 
 .my-plan-content {
@@ -117,4 +131,101 @@ header {}
     font-weight: 500;
     font-size: 25px;
     color: #737272;
+}
+
+
+/* Gradient Section Start */
+.gradient-container {
+    margin-top: 130px;
+    background-image: url('images/watch.png'), linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    width: 1140px;
+    height: 300px;
+}
+
+.gradient-content {
+    text-align: left;
+    margin-left: 64px;
+}
+
+.btn-white {
+    width: 160px;
+    height: 64px;
+    background-color: white;
+    border-radius: 5px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+
+/* Footer Section */
+footer {
+    width: 1400px;
+    height: 580px;
+    background-color: black;
+    margin-top: 130px;
+}
+
+.footer-container {
+    width: 1140px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    margin-top: 130px;
+    margin-left: 0px;
+}
+
+.contact .com-title-white {
+    margin-bottom: 16px;
+}
+
+.contact-icon {
+    margin-top: 30px;
+}
+
+.contact-icon img {
+    margin-right: 18px;
+}
+
+.subscribe {
+    margin-top: 130px;
+}
+
+.subscribe h3 {
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.subscribe input {
+    background-color: black;
+    color: white;
+    width: 325px;
+    height: 64px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.btn-subscribe {
+    width: 170px;
+    height: 64px;
+    color: #F15B22;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 16px;
 }
