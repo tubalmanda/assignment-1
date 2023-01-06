@@ -61,6 +61,7 @@ header {}
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 130px;
 }
 
 .last-year-container img {
@@ -70,13 +71,6 @@ header {}
 
 .last-year-content {
     margin-left: 87px;
-
-}
-
-.last-year-title {
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 24px;
 }
 
 .last-year-content ul {
@@ -86,8 +80,41 @@ header {}
 }
 
 /* Description common class */
+.com-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
 .description {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
+}
+
+/* My Plans Section */
+.my-plan-container {
+    text-align: center;
+}
+
+.my-plan-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+    margin-top: 50px;
+}
+
+.my-plan-terget h3 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.my-plan-terget p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
 }
