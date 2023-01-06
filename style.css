@@ -1,8 +1,12 @@
 * {
     margin: 0;
     padding: o;
-    font-family: 'Inter', sans-serif;
-    /* font-family: 'Work Sans', sans-serif; */
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+Main {
+    width: 1600px;
 }
 
 /* Banner start */
@@ -49,4 +53,41 @@ header {}
     font-weight: 600;
     font-size: 20px;
     border: none;
+}
+
+
+/* last year section */
+.last-year-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-year-container img {
+    padding-top: 130px;
+    padding-left: 206px;
+}
+
+.last-year-content {
+    margin-left: 87px;
+
+}
+
+.last-year-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.last-year-content ul {
+    margin-top: 16px;
+    list-style: none;
+    line-height: 26px;
+}
+
+/* Description common class */
+.description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
 }
