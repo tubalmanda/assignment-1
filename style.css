@@ -71,6 +71,7 @@ header {}
 
 .last-year-content {
     margin-left: 87px;
+    margin-top: 180px;
 }
 
 .last-year-content ul {
@@ -149,6 +150,7 @@ header {}
 .gradient-content {
     text-align: left;
     margin-left: 64px;
+    padding-top: 60px;
 }
 
 .btn-white {
@@ -164,46 +166,23 @@ header {}
 
 
 /* Keep Focus Section (Bonus Section) */
-/* 
 .keep-focus-container {
-    width: 1140px;
+    text-align: center;
     margin-top: 130px;
+    background-color: #F15B22;
+    background-image: linear-gradient(to top right, #F15B22, yellow);
+    padding: 50px 0px;
+    width: 1140px;
+    border-radius: 5px;
+}
+
+.keep-focus-content {
     display: flex;
-
+    padding-top: 30px;
+    gap: 16px;
 }
 
-.keep-focus-content { 
-    padding: 5px 5px;
-    text-align: center;
-    margin-top: 30px;
-    border: 1px solid black;
-    border-radius: 50%;
-}
-
-.img-mental {
-    background-image: url('images/focus.png');
-}
-
-.img-distractions {
-    background-image: url('images/distractions.png');
-}
-
-.img-limit {
-    background-image: url('images/limit.png');
-}
-
-.img-mindfulness {
-    background-image: url('images/mintfulness.png');
-}
- */
-
-
- .keep-focus-container {
-    display: flex;
- }
- .keep-focus-content{
-    text-align: center;
- }
+.keep-focus {}
 
 .focus-img {
     width: 100px;
@@ -211,6 +190,7 @@ header {}
     background-size: cover;
     background-position: center;
 }
+
 
 /* Footer Section */
 footer {
