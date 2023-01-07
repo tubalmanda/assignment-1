@@ -105,6 +105,14 @@ header {}
     line-height: 26px;
 }
 
+.gen-h3 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #444343;
+}
+
 /* My Plans Section */
 .my-plan-container {
     text-align: center;
@@ -117,13 +125,6 @@ header {}
     align-items: center;
     gap: 86px;
     margin-top: 50px;
-}
-
-.my-plan-terget h3 {
-    margin-top: 24px;
-    margin-bottom: 16px;
-    font-weight: 700;
-    font-size: 30px;
 }
 
 .my-plan-terget p {
@@ -161,6 +162,55 @@ header {}
     border: none;
 }
 
+
+/* Keep Focus Section (Bonus Section) */
+/* 
+.keep-focus-container {
+    width: 1140px;
+    margin-top: 130px;
+    display: flex;
+
+}
+
+.keep-focus-content { 
+    padding: 5px 5px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.img-mental {
+    background-image: url('images/focus.png');
+}
+
+.img-distractions {
+    background-image: url('images/distractions.png');
+}
+
+.img-limit {
+    background-image: url('images/limit.png');
+}
+
+.img-mindfulness {
+    background-image: url('images/mintfulness.png');
+}
+ */
+
+
+ .keep-focus-container {
+    display: flex;
+ }
+ .keep-focus-content{
+    text-align: center;
+ }
+
+.focus-img {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
 
 /* Footer Section */
 footer {
